@@ -248,7 +248,6 @@ class KurdishCupertinoLocalizationsDelegate
         singleDigitHourFormat: intl.DateFormat('EEEE, MMMM d, y', localeName),
         singleDigitMinuteFormat: intl.DateFormat('MMMM y', localeName),
         singleDigitSecondFormat: intl.DateFormat('MMM d', localeName),
-        shortDateFormat: intl.DateFormat('MM/dd/yyyy', localeName),
       ),
     );
   }
@@ -268,7 +267,6 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   required super.fullYearFormat,
   required super.mediumDateFormat,
   required super.decimalFormat,
-  required super.shortDateFormat,
   required super.dayFormat,
   required super.doubleDigitMinuteFormat,
   required super.singleDigitHourFormat,
