@@ -46,4 +46,25 @@ class KurdishWidgetLocalizations extends WidgetsLocalizations {
 
   @override
   String get reorderItemUp => throw UnimplementedError();
+
+  @override
+  String get copyButtonLabel => 'لەبەرگرتن';
+
+  @override
+  String get cutButtonLabel => 'بڕین';
+
+  @override
+  String get lookUpButtonLabel => 'گەڕان';
+
+  @override
+  String get pasteButtonLabel => 'لکاندن';
+
+  @override
+  String get searchWebButtonLabel => 'گەڕان لە وێب';
+
+  @override
+  String get selectAllButtonLabel => 'هەموو هەلبژێرە';
+
+  @override
+  String get shareButtonLabel => 'هاوبەشکردن';
 }
