@@ -239,16 +239,17 @@ class KurdishCupertinoLocalizationsDelegate
 
     return SynchronousFuture<CupertinoLocalizations>(
       KurdishCupertinoLocalizations(
-        localeName: localeName,
-        decimalFormat: intl.NumberFormat('#,##0.###', 'ar'),
-        fullYearFormat: intl.DateFormat('y', localeName),
-        dayFormat: intl.DateFormat('yMd', localeName),
-        doubleDigitMinuteFormat: intl.DateFormat('yMMMd', localeName),
-        mediumDateFormat: intl.DateFormat('EEE, MMM d', localeName),
-        singleDigitHourFormat: intl.DateFormat('EEEE, MMMM d, y', localeName),
-        singleDigitMinuteFormat: intl.DateFormat('MMMM y', localeName),
-        singleDigitSecondFormat: intl.DateFormat('MMM d', localeName),
-      ),
+      localeName: localeName,
+      decimalFormat: intl.NumberFormat('#,##0.###', 'ar'),
+      fullYearFormat: intl.DateFormat('y', localeName),
+      dayFormat: intl.DateFormat('yMd', localeName),
+      doubleDigitMinuteFormat: intl.DateFormat('yMMMd', localeName),
+      mediumDateFormat: intl.DateFormat('EEE, MMM d', localeName),
+      singleDigitHourFormat: intl.DateFormat('EEEE, MMMM d, y', localeName),
+      singleDigitMinuteFormat: intl.DateFormat('MMMM y', localeName),
+      singleDigitSecondFormat: intl.DateFormat('MMM d', localeName),
+      weekdayFormat: intl.DateFormat('EEEE', localeName),
+    ),
     );
   }
 
@@ -262,16 +263,17 @@ class KurdishCupertinoLocalizationsDelegate
 /// an example. Everything else uses the American English (en_US) messages
 /// and formatting.
 class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
-  const KurdishCupertinoLocalizations({
+const KurdishCupertinoLocalizations({
   required super.localeName,
   required super.fullYearFormat,
-  required super.mediumDateFormat,
-  required super.decimalFormat,
   required super.dayFormat,
-  required super.doubleDigitMinuteFormat,
+  required super.weekdayFormat,
+  required super.mediumDateFormat,
   required super.singleDigitHourFormat,
   required super.singleDigitMinuteFormat,
+  required super.doubleDigitMinuteFormat,
   required super.singleDigitSecondFormat,
+  required super.decimalFormat,
 });
 
 // #docregion Getters
