@@ -1,4 +1,4 @@
-<p align="center"><img width=12.5% src="https://raw.githubusercontent.com/aminsamad/flutter_kurdish_localization/master/pic/ku.png"></p>
+<p align="center"><img width=12.5% src="https://raw.githubusercontent.com/aminsamad/flutter_kurdish_localization/master/pic/ckb.png"></p>
 <p align="center"><img width=60% src="https://raw.githubusercontent.com/aminsamad/flutter_kurdish_localization/master/pic/Designer.png"></p>
 
 <hr>
@@ -37,8 +37,8 @@ return MaterialApp(
 		KurdishWidgetLocalizations.delegate,
 		...
 	],
-	supportedLocales: [ Locale('ku') ]
-	ocale: Locale('ku')
+	supportedLocales: [ Locale('ckb') ]
+	ocale: Locale('ckb')
  )
 ```
 
